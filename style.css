@@ -108,7 +108,7 @@ body {
 
 .skills ul {
   padding-top: 1.5rem;
-  padding-left: 5px;
+  /* padding-left: 5px; */
 }
 .skills ul li p {
   padding: .4rem 0;
@@ -214,15 +214,15 @@ body {
 }
 
 /* Media queries */
-/* @media screen and (max-width:780px) {
+@media screen and (max-width:780px) {
   .experience-contents,
   .education-contents,
   .awards-contents {
       grid-template-columns: repeat(1, 1fr);
   }
-} */
+}
 
-/* @media screen and (max-width:780px) {
+@media screen and (max-width:780px) {
   .left-section {
       grid-column: span 3;
   }
@@ -265,15 +265,14 @@ body {
       font-size: 18px;
   }
 
-  /* .contact-info ul li,
+  .contact-info ul li,
   .references ul li {
       font-size: 12px;
-  } */
+  }
 
-/*
   .contact-info ul li i,
   .references ul li i {
-      padding-right: 1rem;
+      /* padding-right: 1rem; */
       font-size: 12px;
   }
 
@@ -303,4 +302,4 @@ body {
   .awards-name {
       font-size: 18px;
   }
-} */
+} 
